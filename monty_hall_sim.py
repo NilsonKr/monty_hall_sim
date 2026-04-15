@@ -4,9 +4,8 @@ n_sim = 100000
 
 
 def monty_hill_problem(switch = False):
-  doors = [0, 0, 0]
+  doors = range(3)
   prize_door_idx = random.randint(0,2)
-  doors[prize_door_idx] = 1
 
   participant_selection = random.randint(0,2)
 
